@@ -1,5 +1,3 @@
-<?php
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,6 +8,19 @@
     <title>Document</title>
 </head>
 <body>
+<?php
+echo "php echo <br>";
+$a = "2";
+$b = 1;
+$d = 1.3;
+$bool = true;
+$arr = [];
+$arr['k'] = 5;
+
+echo $a + $b;
+
+
+?>
 <h1>Welcome PHP!</h1>
 </body>
 </html>
